@@ -1,0 +1,22 @@
+{
+    "name": "elmattprofe/kata",
+    "description": "Manejador de plantillas simple",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://mattprofe.com.ar",
+    "authors": [
+        {
+            "name": "Matias Leonardo Baez",
+            "email": "elmattprofe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ElMattProfe\\Component\\Kata\\" : ""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    }
+}
