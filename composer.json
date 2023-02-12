@@ -1,13 +1,16 @@
 {
     "name": "elmattprofe/kata",
-    "description": "Manejador de plantillas simple",
+    "description": "Kata is a simple engine for load templates with extension *.tpl.php",
+    "keywords": ["template","kata"],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://mattprofe.com.ar",
+    "homepage": "https://github.com/mattprofe/kata",
     "authors": [
         {
             "name": "Matias Leonardo Baez",
-            "email": "elmattprofe@gmail.com"
+            "email": "elmattprofe@gmail.com",
+            "homepage": "https://mattprofe.com.ar",
+            "role": "Developer"
         }
     ],
     "autoload": {
