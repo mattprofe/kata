@@ -14,9 +14,9 @@
 	 * 
 	 * la plantilla ya tiene por defecto constantes a utilizar como:
 	 * 
-	 * {{VERSION_PROJECT}} // para la version del proyecto
+	 * {{APP_VERSION}} // para la version del proyecto
 	 * {{APP_NAME}} // para el nombre del proyecto
-	 * {{URL_PROJECT}} // para las urls
+	 * {{APP_URL_BASE}} // para las urls
 	 * 
 	 * */
 
@@ -90,7 +90,7 @@
 
 			// si tenemos una version de proyecto
 			if($version_project){
-				$this->buff = str_replace("{{VERSION_PROJECT}}", $version_project, $this->buff);
+				$this->buff = str_replace("{{APP_VERSION}}", $version_project, $this->buff);
 			}
 
 			// si tenemos nombre de la app
@@ -100,7 +100,7 @@
 
 			// si tenemos una url de proyecto
 			if($url_project){
-				$this->buff = str_replace("{{URL_PROJECT}}", $url_project, $this->buff);
+				$this->buff = str_replace("{{APP_URL_BASE}}", $url_project, $this->buff);
 			}
 
 			// si hay variables dentro del vector
